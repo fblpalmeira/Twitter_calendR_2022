@@ -32,7 +32,7 @@ events[339] <- "#InternationalCheetahDay"
 events[349] <- "#WorldMonkeyDay"
 
 # Creating the calendar with a legend
-png(file = "twitter_tags4.png", width = 1024, height = 768)
+png(file = "twitter_calendar.png", width = 1024, height = 768)
 twitter<-calendR(title = "#TwitterWildlifeCommunity Calendar 2022", # Title
         title.size = 30, # Title size
         lty = 1,                   # Line type
